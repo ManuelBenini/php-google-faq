@@ -1,0 +1,23 @@
+.main-container{
+  padding: 32px;
+  padding-top: 126px;
+  max-width: 1042px;
+  margin: 0 auto;
+}
+.main-list{
+  margin-left: 15px;
+}
+.main-list li{
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.main-list-indentata{
+  margin-left: 20px;
+}
+.main-list-indentata li{
+  padding-left: 20px;
+  margin-top: 15px;
+}
+main a{
+  color: #488ae5;
+}

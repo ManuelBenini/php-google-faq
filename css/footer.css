@@ -1,0 +1,36 @@
+footer{
+  height: 50px;
+  background-color: #f5f5f5;
+  font-size: 11px;
+}
+.footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 32px;
+  max-width: 1042px;
+  margin: 0 auto;
+}
+footer i{
+  color: #4ebefd;
+  font-size: 14px;
+  margin-right: 5px;
+}
+footer a{
+  color: #383538;
+}
+footer select{
+  width: 170px;
+  height: 22px;
+}
+.footer-list{
+  display: flex;
+  list-style: none;
+}
+.footer-list li{
+  margin-right: 10px;
+}
+.footer-list :nth-child(n + 2) ::before{
+  content: '•';
+  margin-right: 8px;
+}
